@@ -158,6 +158,6 @@ region = "${S3BUCKETREGION}"
 
 } 
 
-EOF 
+EOF
 
 cat backend.tf 
