@@ -6,16 +6,16 @@ resource "aws_instance" "web" {
   key_name = aws_key_pair.deployer.key_name 
   security_groups = ["allow_ssh"]
   provisioner "remote-exec" { 
-    connection { 
-      host        = self.public_ip
-      type        = "ssh" 
-      user        = var.user
-      private_key = file(var.ssh_key_location)
-    } 
-    inline = [ 
-      "sudo yum install -y epel-release", 
-    ] 
-  } 
+    connection { 
+      host        = self.public_ip
+      type        = "ssh" 
+      user        = var.user
+      private_key = file(var.ssh_key_location)
+      } 
+      inline = [ 
+        "sudo yum install -y epel-release", 
+        ]
+        } 
   tags = { 
     Name = HelloWorld
   } 
