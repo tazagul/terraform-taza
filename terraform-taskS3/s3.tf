@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "a" {
 
 
 resource "aws_s3_bucket" "b" {
-  bucket  = "taza-task-tf3-s3"
+  bucket  = "taza-task-tf7-s3"
   region  = "eu-west-1"
 }
 resource "aws_s3_bucket" "c" {
