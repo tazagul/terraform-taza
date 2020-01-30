@@ -9,11 +9,11 @@ module "bucket1" {
   bucketname = "modules-us-kumarovatazagul1" 
 }  
 
-{ 
-  region = "us-west-1" 
+
+provider "aws"{ 
+  region = "us-east-1" 
 
 } 
-
  
 module "bucket2" { 
   source = "./modules" 
