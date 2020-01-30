@@ -1,2 +1,2 @@
 region  = "us-west-1"
-bucketname = "tazagul-terrfaorm-test2"
+bucket_name = "tazagul-terrfaorm-test2"

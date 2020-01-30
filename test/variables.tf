@@ -1,2 +1,2 @@
-variable "bucketname" {}
+variable "bucket_name" {}
 variable "region" {}
