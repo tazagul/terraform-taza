@@ -1,8 +1,7 @@
-provider {
-  aws {
-    region = "us-east-2"
-  }
-}
+provider "aws"{ 
+  region = "us-east-1" 
+
+} 
 
 resource "aws_s3_bucket" "public" {
   bucket = "tf-task-taza1"
