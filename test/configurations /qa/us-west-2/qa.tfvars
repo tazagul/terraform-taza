@@ -1,2 +1,2 @@
 region  = "us-east-2"
-bucketname = "tazagul-terraform-test-4"
+bucket_name = "tazagul-terraform-test-4"
