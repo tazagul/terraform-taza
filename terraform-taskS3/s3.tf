@@ -1,15 +1,14 @@
-provider {"aws"{ 
-  region = "us-east-1" 
-
-} 
-
-resource "aws_s3_bucket" "public" {
-  bucket = "tf-task-taza1"
-  region = "us-east-1"
+provider "aws" {
+  region  = "us-east-1"
+  
 }
-resource "aws_s3_bucket" "public" {
-  bucket = "tf-task-taza2"
-  region = "us-east-2"
 
+resource "aws_s3_bucket" "a" {
+  bucket  = "taza-task-tf1"
+  region  = "us-east-1"
 }
+
+resource "aws_s3_bucket" "b" {
+  bucket  = "taza-task-tf1"
+  region  = "us-east-2"
 }
