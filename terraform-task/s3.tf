@@ -9,9 +9,3 @@ resource "aws_s3_bucket" "public" {
 
  
 }
-
-resource "aws_s3_bucket" "secrets" {
-  bucket = "tf-task-taza2"
-  region = "us-east-2"
-
-}
