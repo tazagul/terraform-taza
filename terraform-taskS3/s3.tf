@@ -11,5 +11,9 @@ resource "aws_s3_bucket" "a" {
 
 resource "aws_s3_bucket" "b" {
   bucket  = "taza-task-tf3-s3"
-  region  = "us-east-2"
+  region  = "eu-west-1"
+}
+resource "aws_s3_bucket" "b" {
+  bucket  = "taza-task-tf6-s3"
+  region  = "us-west-1"
 }
