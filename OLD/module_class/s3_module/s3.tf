@@ -7,4 +7,4 @@ provider "aws"{
 module "bucket1" { 
   source = "./modules" 
   bucketname = "modules-us-kumarovatazagul" 
-} 
+}  
