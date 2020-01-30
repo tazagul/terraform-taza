@@ -1,2 +1,2 @@
 region  = "us-east-1"
-bucketname = " maks131131"
+bucketname = " tazagul-terraform-test3"
