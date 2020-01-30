@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "a" {
-  bucket  = "taza-task-tf2-s3"
+  bucket  = "taza-task-tf4-s3"
   region  = "us-east-1"
 }
 
