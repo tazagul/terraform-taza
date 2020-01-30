@@ -9,7 +9,7 @@ module "bucket1" {
   bucketname = "modules-us-kumarovatazagul1" 
 }  
 
-provider "aws"{ 
+{ 
   region = "us-west-1" 
 
 } 
