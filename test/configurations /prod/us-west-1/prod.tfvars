@@ -1,7 +1,7 @@
 region  = "us-west-1"
 bucket_name = "tazagul-terrfaorm-test2"
 environment = "dev"
-s3_bucket = "kumarovatazagul" #Will be used to set backend.tf
+s3_bucket = "kumarovatazagul1" #Will be used to set backend.tf
 s3_folder_project = "application" #Will be used to set backend.tf
 s3_folder_region = "us-east-1" #Will be used to set backend.tf
 s3_folder_type = "state" #Will be used to set backend.tf
