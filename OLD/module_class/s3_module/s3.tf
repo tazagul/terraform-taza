@@ -15,7 +15,7 @@ provider "aws"{
 } 
 
  
-module "bucket1" { 
+module "bucket2" { 
   source = "./modules" 
   bucketname = "modules-us-kumarovatazagul2" 
 }
